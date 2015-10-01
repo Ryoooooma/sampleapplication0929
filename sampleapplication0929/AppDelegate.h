@@ -11,6 +11,10 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic) NSString *btnTitle;
+@property (nonatomic) NSString *infoText;
+@property (nonatomic) UIImage *infoPicture;
+@property (nonatomic) NSString *infoTitle;
 
 
 @end

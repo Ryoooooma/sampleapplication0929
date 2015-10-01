@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)goBeach:(id)sender;
+
+- (IBAction)gorestaurant:(id)sender;
 
 @end
 

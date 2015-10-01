@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3312135F1BBC0EE1003E2153 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3312135E1BBC0EE1003E2153 /* MapKit.framework */; };
+		331213611BBC0EEC003E2153 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 331213601BBC0EEC003E2153 /* CoreLocation.framework */; };
 		33B18AE21BBAB7EC007E97E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B18AE11BBAB7EC007E97E0 /* main.m */; };
 		33B18AE51BBAB7EC007E97E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B18AE41BBAB7EC007E97E0 /* AppDelegate.m */; };
 		33B18AE81BBAB7EC007E97E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B18AE71BBAB7EC007E97E0 /* ViewController.m */; };
@@ -14,6 +16,11 @@
 		33B18AED1BBAB7EC007E97E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B18AEC1BBAB7EC007E97E0 /* Images.xcassets */; };
 		33B18AF01BBAB7EC007E97E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B18AEE1BBAB7EC007E97E0 /* LaunchScreen.xib */; };
 		33B18AFC1BBAB7EC007E97E0 /* sampleapplication0929Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B18AFB1BBAB7EC007E97E0 /* sampleapplication0929Tests.m */; };
+		33B18B071BBABABE007E97E0 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33B18B051BBABABE007E97E0 /* beach.jpg */; };
+		33B18B081BBABABE007E97E0 /* restaurant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33B18B061BBABABE007E97E0 /* restaurant.jpg */; };
+		33B18B0B1BBABB26007E97E0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B18B0A1BBABB26007E97E0 /* SecondViewController.m */; };
+		33B18B0D1BBAD1BF007E97E0 /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33B18B0C1BBAD1BF007E97E0 /* List.plist */; };
+		33B18B101BBAD3DD007E97E0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B18B0F1BBAD3DD007E97E0 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3312135E1BBC0EE1003E2153 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		331213601BBC0EEC003E2153 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		33B18ADC1BBAB7EB007E97E0 /* sampleapplication0929.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleapplication0929.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B18AE01BBAB7EB007E97E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33B18AE11BBAB7EC007E97E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,13 @@
 		33B18AF51BBAB7EC007E97E0 /* sampleapplication0929Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleapplication0929Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B18AFA1BBAB7EC007E97E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33B18AFB1BBAB7EC007E97E0 /* sampleapplication0929Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleapplication0929Tests.m; sourceTree = "<group>"; };
+		33B18B051BBABABE007E97E0 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beach.jpg; path = ../../LOL/LOL/images/beach.jpg; sourceTree = "<group>"; };
+		33B18B061BBABABE007E97E0 /* restaurant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = restaurant.jpg; path = ../../LOL/LOL/images/restaurant.jpg; sourceTree = "<group>"; };
+		33B18B091BBABB26007E97E0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		33B18B0A1BBABB26007E97E0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		33B18B0C1BBAD1BF007E97E0 /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
+		33B18B0E1BBAD3DD007E97E0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		33B18B0F1BBAD3DD007E97E0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331213611BBC0EEC003E2153 /* CoreLocation.framework in Frameworks */,
+				3312135F1BBC0EE1003E2153 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,8 @@
 		33B18AD31BBAB7EB007E97E0 = {
 			isa = PBXGroup;
 			children = (
+				331213601BBC0EEC003E2153 /* CoreLocation.framework */,
+				3312135E1BBC0EE1003E2153 /* MapKit.framework */,
 				33B18ADE1BBAB7EB007E97E0 /* sampleapplication0929 */,
 				33B18AF81BBAB7EC007E97E0 /* sampleapplication0929Tests */,
 				33B18ADD1BBAB7EB007E97E0 /* Products */,
@@ -83,6 +103,10 @@
 			children = (
 				33B18AE31BBAB7EC007E97E0 /* AppDelegate.h */,
 				33B18AE41BBAB7EC007E97E0 /* AppDelegate.m */,
+				33B18B0E1BBAD3DD007E97E0 /* ThirdViewController.h */,
+				33B18B0F1BBAD3DD007E97E0 /* ThirdViewController.m */,
+				33B18B091BBABB26007E97E0 /* SecondViewController.h */,
+				33B18B0A1BBABB26007E97E0 /* SecondViewController.m */,
 				33B18AE61BBAB7EC007E97E0 /* ViewController.h */,
 				33B18AE71BBAB7EC007E97E0 /* ViewController.m */,
 				33B18AE91BBAB7EC007E97E0 /* Main.storyboard */,
@@ -96,8 +120,11 @@
 		33B18ADF1BBAB7EB007E97E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33B18B051BBABABE007E97E0 /* beach.jpg */,
+				33B18B061BBABABE007E97E0 /* restaurant.jpg */,
 				33B18AE01BBAB7EB007E97E0 /* Info.plist */,
 				33B18AE11BBAB7EC007E97E0 /* main.m */,
+				33B18B0C1BBAD1BF007E97E0 /* List.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,9 +226,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B18B081BBABABE007E97E0 /* restaurant.jpg in Resources */,
 				33B18AEB1BBAB7EC007E97E0 /* Main.storyboard in Resources */,
 				33B18AF01BBAB7EC007E97E0 /* LaunchScreen.xib in Resources */,
 				33B18AED1BBAB7EC007E97E0 /* Images.xcassets in Resources */,
+				33B18B0D1BBAD1BF007E97E0 /* List.plist in Resources */,
+				33B18B071BBABABE007E97E0 /* beach.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B18B0B1BBABB26007E97E0 /* SecondViewController.m in Sources */,
+				33B18B101BBAD3DD007E97E0 /* ThirdViewController.m in Sources */,
 				33B18AE81BBAB7EC007E97E0 /* ViewController.m in Sources */,
 				33B18AE51BBAB7EC007E97E0 /* AppDelegate.m in Sources */,
 				33B18AE21BBAB7EC007E97E0 /* main.m in Sources */,
@@ -416,6 +448,7 @@
 				33B18B011BBAB7EC007E97E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33B18B021BBAB7EC007E97E0 /* Build configuration list for PBXNativeTarget "sampleapplication0929Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +457,7 @@
 				33B18B041BBAB7EC007E97E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
