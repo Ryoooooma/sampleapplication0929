@@ -12,7 +12,7 @@
 @interface ThirdViewController : UIViewController<MKMapViewDelegate,CLLocationManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextView *myTextView;
+@property (weak, nonatomic) IBOutlet MKMapView *myMapView;
 @property (nonatomic) CLLocationManager *locationManager;
-
 
 @end

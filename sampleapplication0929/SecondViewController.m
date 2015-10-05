@@ -88,7 +88,12 @@
     
     _appdeligate.infoText = _plistArray[_category][indexPath.row][@"text"];
     _appdeligate.infoTitle = _plistArray[_category][indexPath.row][@"name"];
-
+    
+    float lati = [_plistArray[_category][indexPath.row][@"latitude"] floatValue];
+    float longi = [_plistArray[_category][indexPath.row][@"longitude"] floatValue];
+    
+    _appdeligate.infoLati = lati;
+    _appdeligate.infoLongi = longi;
     
     ThirdViewController *TVC = [self.storyboard instantiateViewControllerWithIdentifier:@"ThirdViewController"];
     

@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTy-wG-21r">
-                                <rect key="frame" x="0.0" y="13" width="375" height="330"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="358"/>
                                 <state key="normal" title="Beach" backgroundImage="beach.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -26,7 +26,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbr-xQ-hH8">
-                                <rect key="frame" x="0.0" y="342" width="375" height="325"/>
+                                <rect key="frame" x="0.0" y="357" width="375" height="310"/>
                                 <state key="normal" title="Restaurant" backgroundImage="restaurant.jpg">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -102,7 +102,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="e4J-gL-y1f">
-                                <rect key="frame" x="0.0" y="28" width="375" height="235"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="619"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSv-dq-jjM">
                                 <rect key="frame" x="3" y="547" width="120" height="100"/>
@@ -127,6 +127,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="myMapView" destination="e4J-gL-y1f" id="iE9-yb-naW"/>
                         <outlet property="myTextView" destination="8E0-le-hLq" id="l85-Uu-kOv"/>
                     </connections>
                 </viewController>

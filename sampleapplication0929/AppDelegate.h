@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -15,7 +16,7 @@
 @property (nonatomic) NSString *infoText;
 @property (nonatomic) UIImage *infoPicture;
 @property (nonatomic) NSString *infoTitle;
-
-
+@property (nonatomic) float infoLati;
+@property (nonatomic) float infoLongi;
 @end
 
