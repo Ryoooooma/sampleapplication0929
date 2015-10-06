@@ -62,7 +62,7 @@
     // = _appDelegate.infoLocation;
  
     MKPointAnnotation *pin_2 =[[MKPointAnnotation alloc] init];
-    pin_2.coordinate = CLLocationCoordinate2DMake(10.314275, 123.90535);
+    pin_2.coordinate = CLLocationCoordinate2DMake(_appDelegate.infoLati, _appDelegate.infoLongi);
     
     pin_2.title = _appDelegate.infoTitle;
     
@@ -70,7 +70,7 @@
 
     
     // ここから実装している10/05
-    CLLocationCoordinate2D toLocation = CLLocationCoordinate2DMake(10.314275, 123.90535);
+    CLLocationCoordinate2D toLocation = CLLocationCoordinate2DMake(_appDelegate.infoLati, _appDelegate.infoLongi);
 
     // CLLocationCoordinate2D から MKPlacemark を生成
     MKPlacemark *fromPlacemark = [[MKPlacemark alloc] initWithCoordinate:fromLocation
@@ -98,8 +98,8 @@
          if ([response.routes count] > 0)
          {
              MKRoute *route = [response.routes objectAtIndex:0];
-             NSLog(@"distance: %.2f meter", route.distance);
-             
+             NSLog(@"アヤラからの距離は: %.f mです", route.distance);
+               self.myDistanceLabel.text =[NSString stringWithFormat:@"%.f",route.distance];
              // 地図上にルートを描画
              [self.myMapView addOverlay:route.polyline];
          }
@@ -133,15 +133,5 @@
     [super didReceiveMemoryWarning];
 
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
