@@ -15,5 +15,9 @@
 @property (weak, nonatomic) IBOutlet MKMapView *myMapView;
 @property (nonatomic) CLLocationManager *locationManager;
 @property (weak, nonatomic) IBOutlet UILabel *myDistanceLabel;
+@property (weak, nonatomic) IBOutlet UILabel *lati;
+@property (weak, nonatomic) IBOutlet UILabel *longi;
+
+
 
 @end

@@ -49,8 +49,8 @@
 		33B18AF51BBAB7EC007E97E0 /* sampleapplication0929Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleapplication0929Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B18AFA1BBAB7EC007E97E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33B18AFB1BBAB7EC007E97E0 /* sampleapplication0929Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleapplication0929Tests.m; sourceTree = "<group>"; };
-		33B18B051BBABABE007E97E0 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beach.jpg; path = ../../LOL/LOL/images/beach.jpg; sourceTree = "<group>"; };
-		33B18B061BBABABE007E97E0 /* restaurant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = restaurant.jpg; path = ../../LOL/LOL/images/restaurant.jpg; sourceTree = "<group>"; };
+		33B18B051BBABABE007E97E0 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beach.jpg; path = images/beach.jpg; sourceTree = "<group>"; };
+		33B18B061BBABABE007E97E0 /* restaurant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = restaurant.jpg; path = images/restaurant.jpg; sourceTree = "<group>"; };
 		33B18B091BBABB26007E97E0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		33B18B0A1BBABB26007E97E0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		33B18B0C1BBAD1BF007E97E0 /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };

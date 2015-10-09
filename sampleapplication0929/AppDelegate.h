@@ -14,9 +14,8 @@
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic) NSString *btnTitle;
 @property (nonatomic) NSString *infoText;
-@property (nonatomic) UIImage *infoPicture;
 @property (nonatomic) NSString *infoTitle;
-@property (nonatomic) float infoLati;
-@property (nonatomic) float infoLongi;
+@property (nonatomic) float endLati;
+@property (nonatomic) float endLongi;
 @end
 

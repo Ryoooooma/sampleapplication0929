@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>17A15777-4106-438B-B7E2-7C288D3DF08E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>sampleapplication0929</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E28A5A6A8E62E8B51321C71A70DF16BD9C5AB37E</key>
+		<string>https://github.com/Ryoooooma/sampleapplication0929.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sampleapplication0929.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E28A5A6A8E62E8B51321C71A70DF16BD9C5AB37E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Ryoooooma/sampleapplication0929.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E28A5A6A8E62E8B51321C71A70DF16BD9C5AB37E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E28A5A6A8E62E8B51321C71A70DF16BD9C5AB37E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sampleapplication0929</string>
+		</dict>
+	</array>
+</dict>
+</plist>
